@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basics HTML Page</title>
+
+    <style>
+        /* Pseudo Class */
+        a:hover {
+            color: red;
+        }
+
+        li:first-child {
+            color: green;
+        }
+
+        /* Pseudo Element */
+        p::first-letter {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2::after {
+            content: " ★";
+            color: blue;
+        }
+
+        div {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        span {
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Welcome to My Web Page</h1>
+
+    <!-- Navigation within page -->
+    <a href="#about">Go to About Section</a> |
+    <a href="#contact">Go to Contact Section</a>
+
+    <hr>
+
+    <h2>Introduction</h2>
+
+    <p>
+        This is a <b>basic HTML page</b> created to demonstrate various tags.
+        HTML stands for <i>Hyper Text Markup Language</i>.
+    </p>
+
+    <blockquote>
+        "Learning HTML is the first step towards web development."
+    </blockquote>
+
+    <hr>
+
+    <h2>Topics Covered</h2>
+
+    <ul>
+        <li>HTML Structure</li>
+        <li>Formatting Tags</li>
+        <li>Navigation</li>
+    </ul>
+
+    <div>
+        <h2 id="about">About Section</h2>
+
+        <p>
+            This section gives information <span>about this webpage</span>.
+            It contains examples of different HTML elements.
+        </p>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <br><br>
+
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+    </div>
+
+    <div>
+        <h2 id="contact">Contact Section</h2>
+
+        <p>
+            You can contact us through email.
+        </p>
+
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </div>
+
+</body>
+
+</html>

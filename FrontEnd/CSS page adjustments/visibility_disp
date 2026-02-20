@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visibility and Display</title>
+    <style>
+        .hidden { visibility: hidden; }
+        .visible { visibility: visible; }
+        .collapse { visibility: collapse; }
+
+        .none { display: none; }
+        .inline { display: inline; background: lightgreen; }
+        .block { display: block; background: lightblue; }
+        .contents { display: contents; }
+        .listitem { display: list-item; }
+    </style>
+</head>
+<body>
+
+    <h3>Visibility</h3>
+    <p class="visible">Visible Text</p>
+    <p class="hidden">Hidden Text</p>
+
+    <h3>Display</h3>
+    <div class="inline">Inline Element</div>
+    <div class="block">Block Element</div>
+    <div class="none">Not Displayed</div>
+    <div class="listitem">List Item Display</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sort Fruits</title>
+</head>
+<body>
+
+<h3>Fruits List</h3>
+<p id="result"></p>
+
+<button onclick="sortFruits()">Sort Descending</button>
+
+<script>
+
+let fruits = ["Apple", "Orange", "Banana", "Mango", "Grapes"];
+
+document.getElementById("result").innerHTML = fruits;
+
+function sortFruits() {
+    fruits.sort();
+    fruits.reverse();
+    document.getElementById("result").innerHTML = fruits;
+}
+
+</script>
+
+</body>
+</html>

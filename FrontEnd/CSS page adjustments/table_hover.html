@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Hover</title>
+    <style>
+        body {
+            transition: background-color 0.5s;
+        }
+
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        table:hover {
+            background-color: lightgray;
+        }
+
+        body:hover {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Table Example</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>Anish</td>
+            <td>CSE</td>
+        </tr>
+    </table>
+
+</body>
+</html>
